@@ -1,0 +1,17 @@
+.icons-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 14px;
+  }
+  
+  .icon-button {
+    color: var(--text-color);
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .icon-button:hover {
+    color: var(--primary-color);
+    transform: scale(1.2);
+  }
+  
