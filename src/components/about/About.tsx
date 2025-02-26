@@ -12,11 +12,13 @@ const About: React.FC = () => {
     >
       <h2 className="section-title">Sobre Mim</h2>
       <p>
-      Sou um desenvolvedor em formação, entusiasta de tecnologias web e apaixonado por criar soluções 
-      funcionais e escaláveis. Meu foco é desenvolver aplicações modernas, garantindo qualidade, usabilidade e eficiência. Tenho um olhar atento à organização do código, boas práticas e aprendizado contínuo para evoluir constantemente.
+      Sou um desenvolvedor em formação, entusiasta de tecnologias web e apaixonado por criar soluções funcionais e escaláveis. 
+      Meu foco é desenvolver aplicações modernas, garantindo qualidade, usabilidade e eficiência. Tenho um olhar atento à organização do código, boas práticas e aprendizado contínuo para evoluir constantemente.
       </p>
       <p>
-        Busco sempre aprimorar minhas habilidades, trazendo soluções inovadoras e escaláveis para a web.
+        Além do desenvolvimento, também me interesso por <strong>UI/UX Design</strong>, 
+        buscando sempre interfaces intuitivas e agradáveis. Meu foco é transformar ideias em 
+        soluções funcionais e eficientes.
       </p>
     </motion.section>
   );

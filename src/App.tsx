@@ -1,9 +1,14 @@
 import React from "react";
-import Layout from "./components/layout/Layout";
-import "./styles/global.css";
+import Layout from "./components/layout/Layout"
+import ThemeToggle from "./components/theme/ThemeToggle";
 
 const App: React.FC = () => {
-  return <Layout />;
+  return (
+    <>
+      <ThemeToggle />
+      <Layout />
+    </>
+  );
 };
 
 export default App;

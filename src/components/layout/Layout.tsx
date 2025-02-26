@@ -5,7 +5,7 @@ import SocialIcons from "../icons/Icons";
 
 const Layout: React.FC = () => {
   return (
-    <div className="container">
+    <div className="layout">
       <About />
       <Skills />
       <SocialIcons />
