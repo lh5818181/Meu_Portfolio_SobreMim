@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #64ffda;
+  --primary-color: #e6f1ff;
   --background-color: #0a192f;
   --text-color: #ccd6f6;
   --secondary-text-color: #8892b0;
@@ -23,8 +23,9 @@ body {
 
 h2 {
   font-size: 2rem;
-  color: var(--primary-color);
+  color: #e6f1ff;
   margin-bottom: 10px;
+  text-shadow: 2px 2px 4px #e6f1ffaf;
 }
 
 a {
