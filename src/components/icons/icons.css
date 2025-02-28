@@ -15,3 +15,15 @@
   color: var(--hover-color);
   transform: scale(1.2);
 }
+
+/* Responsividade para Social Icons */
+@media (max-width: 768px) {
+  .icons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .icon-button {
+    margin-bottom: 15px;
+  }
+}

@@ -1,13 +1,14 @@
 :root {
   --primary-color: #e6f1ff;
   --background-color: #0a192f;
-  --text-color: #ccd6f6;
-  --secondary-text-color: #8892b0;
-  --accent-color: #112240;
-  --hover-color: #233554;
+  --text-color: #dce8f6;
+  --secondary-text-color: #a0b4c8;
+  --accent-color: #1e2a38;
+  --hover-color: #3a4a60;
   --font-family: "Poppins", sans-serif;
 }
 
+/* Reset e Configurações Globais */
 * {
   margin: 0;
   padding: 0;
@@ -15,19 +16,33 @@
   font-family: var(--font-family);
 }
 
+Corpo da Página
 body {
   background-color: var(--background-color);
   color: var(--text-color);
   line-height: 1.6;
 }
 
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 136%;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Certifique-se de que fique atrás do conteúdo */
+  background-color: var(--background-color); /* Cor de fundo opcional */
+}
+
+
+/* Títulos */
 h2 {
   font-size: 2rem;
-  color: #e6f1ff;
+  color: var(--primary-color);
   margin-bottom: 10px;
   text-shadow: 2px 2px 4px #e6f1ffaf;
 }
 
+/* Links */
 a {
   text-decoration: none;
   color: var(--primary-color);
@@ -38,6 +53,7 @@ a:hover {
   color: var(--hover-color);
 }
 
+/* Layout */
 .layout {
   max-width: 900px;
   margin: 0 auto;
@@ -45,6 +61,7 @@ a:hover {
   text-align: center;
 }
 
+/* Rodapé */
 .footer {
   margin-top: 40px;
   font-size: 0.9rem;
