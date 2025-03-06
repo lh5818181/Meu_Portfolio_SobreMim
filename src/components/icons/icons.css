@@ -21,7 +21,7 @@
   .icons {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
   }
   .icon-button {
     margin-bottom: 15px;
